@@ -1,5 +1,6 @@
 const express = require('express');
-const PORT=process.env.PORT || 4000;
+var bodyParser = require('body-parser');
+const PORT=process.env.PORT || 5000;
 var cors = require('cors')
 const app=express();
 app.use(cors())
@@ -21,12 +22,14 @@ require('./models/post.js');
 require('./models/category.js');
 require('./models/tag.js');
 app.use(express.json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended:true }));
 app.use(require('./routes/auth.js'));
 app.use(require('./routes/post.js'));
 app.use(require('./routes/imageupload.js'));
 app.use(require('./routes/category.js'));
 app.use(require('./routes/tag.js'));
-
+app.use(require('./routes/Speech_to_text.js'));
 
 app.get('/',(req,res)=>{
   res.send('hello');

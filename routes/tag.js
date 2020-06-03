@@ -35,5 +35,22 @@ console.log(req.body);
 
 })
 
+router.put('/deleteTag',(req,res)=>{
+  tag.findById(req.body.TagId)
+  .exec((err,result)=>{
+    if(err){
+      return res.status(444).json({error:err});
+    }else
+      {
+        if(result)
+        {
+        res.send(result);result.remove();
+        }
+
+      }
+  })
+
+})
+
 
 module.exports=router

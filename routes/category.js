@@ -12,7 +12,7 @@ router.get('/allcategories',middleware,(req,res)=>{
   then(files=>{
     if(files.length)
     res.send(files)
-    
+
   }).catch(err=>{console.log(err);});
 })
 
@@ -31,6 +31,23 @@ console.log(req.body);
   p.save()
   .then(file=>{res.send(file)})
   .catch(err=>{console.log(err);});
+
+})
+
+router.put('/deleteCategory',(req,res)=>{
+  category.findById(req.body.CategoryId)
+  .exec((err,result)=>{
+    if(err){
+      return res.status(444).json({error:err});
+    }else
+      {
+        if(result)
+        {
+        res.send(result);result.remove();
+        }
+
+      }
+  })
 
 })
 

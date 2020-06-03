@@ -13,8 +13,7 @@ router.get('/middleware',middleware,(req,res)=>{
 
 router.post('/signup',(req,res)=>{
   console.log(req.body);
-  const {name,email,password,image}= req.body;
-
+  const {name,email,password,image,mobileNo}= req.body;
   if(!name||!password||!email)
   return res.status(404).json({error:"Fill all required fields"});
   User.findOne({email:email}).
@@ -27,7 +26,8 @@ router.post('/signup',(req,res)=>{
              name:name,
              email:email,
              password:newpassword,
-             image:image
+             image:image,
+             mobileNo
                     };
              User.create(p).then((file)=>
             {console.log(file);}).catch(err=>{console.log(err);});
