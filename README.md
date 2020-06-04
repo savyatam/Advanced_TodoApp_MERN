@@ -2,10 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Installation Steps
-   clone the repository:<br/>
+   Clone the repository:<br/>
+   
   `git clone https://github.com/savyatam/MERNstack.git`<br/>
+  
    Install all packages:<br/>
+   
    `npm install`<br/>
+   
    Change directory to my-app and run available scripts.
    
    
