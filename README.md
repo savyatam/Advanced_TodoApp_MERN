@@ -29,7 +29,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ![GIF](http://g.recordit.co/P1pmHypD1R.gif)
 
-### Logout
+### Filters
 
 ![GIF](http://g.recordit.co/P1pmHypD1R.gif)
 
