@@ -11,7 +11,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ## Project Screen Shots  
 
-![Screenshot]()
+![Screenshot](SignupPage.png)
 
 ![Screenshot]()
 
