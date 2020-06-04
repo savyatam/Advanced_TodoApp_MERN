@@ -25,6 +25,10 @@ This Repository contains both frontend and backend under two different branches(
 
 ![GIF](http://g.recordit.co/TICTprdBkV.gif)
 
+### Use Speech Recogniser for Input fields
+
+![GIF](http://g.recordit.co/TICTprdBkV.gif)
+
 ## Installation and Setup Instructions
 
 Refer Server branch for backend and Client branch for frontend
