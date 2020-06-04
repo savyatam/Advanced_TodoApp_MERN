@@ -27,7 +27,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ### Use Speech Recogniser for Input fields
 
-![GIF](http://g.recordit.co/TICTprdBkV.gif)
+![GIF](http://g.recordit.co/P1pmHypD1R.gif)
 
 ## Installation and Setup Instructions
 
