@@ -23,7 +23,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ### Add and update todo
 
-![GIF]()
+![GIF](http://g.recordit.co/TICTprdBkV.gif)
 
 ## Installation and Setup Instructions
 
