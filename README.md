@@ -9,13 +9,19 @@ This Repository contains both frontend and backend under two different branches(
 ### -->Quick Access through Whatsapp(Supports both text and voice message)
 ### -->Voice to text (for input fields)
 
-## Project Screen Shots  
+## Project Screen Shots 
+
+### Authentication Page
 
 ![Screenshot](SignupPage.png)
 
 ![Screenshot](LoginPage.png)
 
+### Add categories and tags
+
 ![GIF](http://g.recordit.co/oThO1yMdqv.gif)
+
+### Add and update todo
 
 ![GIF]()
 
