@@ -15,7 +15,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ![Screenshot](LoginPage.png)
 
-![GIF]()
+![GIF](http://g.recordit.co/oThO1yMdqv.gif)
 
 ![GIF]()
 
