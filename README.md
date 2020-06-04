@@ -29,6 +29,11 @@ This Repository contains both frontend and backend under two different branches(
 
 ![GIF](http://g.recordit.co/P1pmHypD1R.gif)
 
+### Logout
+
+![GIF](http://g.recordit.co/P1pmHypD1R.gif)
+
+
 ## Installation and Setup Instructions
 
 Refer Server branch for backend and Client branch for frontend
