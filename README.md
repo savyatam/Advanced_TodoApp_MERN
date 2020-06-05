@@ -29,9 +29,9 @@ This Repository contains both frontend and backend under two different branches(
 
 ![GIF](http://g.recordit.co/P1pmHypD1R.gif)
 
-### Filters
+### Quick Access through WhatsApp
 
-![GIF](http://g.recordit.co/P1pmHypD1R.gif)
+![GIF](http://g.recordit.co/9tdBQf0RaD.gif)
 
 
 ## Installation and Setup Instructions
