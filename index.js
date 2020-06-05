@@ -29,7 +29,7 @@ app.use(require('./routes/post.js'));
 app.use(require('./routes/imageupload.js'));
 app.use(require('./routes/category.js'));
 app.use(require('./routes/tag.js'));
-app.use(require('./routes/Speech_to_text.js'));
+app.use(require('./routes/whatsapp.js'));
 
 app.get('/',(req,res)=>{
   res.send('hello');

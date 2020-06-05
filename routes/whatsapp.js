@@ -11,20 +11,27 @@ var unirest = require('unirest');
 const User = mongoose.model("User");
 const post=mongoose.model("Post");
 var urlencodedParser = bodyParser.urlencoded({ extended:false })
-router.post('/text', async (req, res) => {
+
+
+
+
+router.post('/whatsapp', async (req, res) => {
   let message;
-   console.log(req.body.From);
+   //console.log(req.body.From);
    res.set('Content-Type', 'text/xml');
    User.findOne({mobileNo:req.body.From}).
    then((file)=>{
-     console.log(file);
-   if(!file)
+     //console.log(file);
+      if(!file)
    {
      message = new MessagingResponse().message('Yet to register');
      res.send(message.toString()).status(200);
    }
-   if(req.body.Body)
-   {message = new MessagingResponse().message(req.body.Body);
+      if(req.body.Body)
+   {
+     const reply='"'+req.body.Body+'"'+"added to list.Now you can update the task in Web Application";
+     //console.log(reply);
+     message = new MessagingResponse().message(reply);
      const p=new post(
        {
          name:req.body.Body,
@@ -34,9 +41,10 @@ router.post('/text', async (req, res) => {
      p.save();
      res.send(message.toString()).status(200);
    }
-   if(req.body.MediaUrl0)
+      if(req.body.MediaUrl0)
    {
-     request(req.body.MediaUrl0).pipe(fs.createWriteStream('xp.ogg'))
+     //console.log(req.body.MediaUrl0);
+     request(req.body.MediaUrl0).pipe(fs.createWriteStream('Voice_Message.ogg'))
      .on('error', () => {
      console.log('ERROR');
      message = new MessagingResponse().message('Something went wrong...Please try later');
@@ -47,7 +55,7 @@ router.post('/text', async (req, res) => {
          .post('https://recognition.voicybot.com/recognize/Wit')
          .headers({'Content-Type': 'multipart/form-data'})
          .field('key','BHH56KIGVSKELNOZNHTWRYRVQTIEIEC2')
-         .attach({'file':'xp.ogg',})
+         .attach({'file':'Voice_Message.ogg',})
          .then((response) => {
            console.log(response.body);
            var text=response.body.text;
@@ -58,7 +66,8 @@ router.post('/text', async (req, res) => {
              }
            );
            p.save();
-           message = new MessagingResponse().message(text);
+           const reply='"'+text+'"'+"added to list.Now you can update the task in Web Application";
+           message = new MessagingResponse().message(reply);
            res.send(message.toString()).status(200);
          })
          .catch(e=>{
