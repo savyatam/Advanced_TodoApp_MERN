@@ -40,4 +40,23 @@ Refer Server branch for backend and Client branch for frontend
 
 ## Demo
 
-https://todoapp12345-39304.web.app/
+https://todoapp12345-39304.web.app
+
+## Note
+
+--->Chrome Browser is recommended. (Supports speech Recognition)<br/>
+
+--->disable the mic after recording<br/>
+
+--->Add country code along with mobile number<br/>
+
+##Activate WhatsApp bot
+
+--->Save this number on your phone directory +1 (415) 523-88862. <br/>
+
+--->Send the given code.<br/>
+      Code: join tip-grade.<br/>
+      
+--->Start adding task name from your WhatsApp.<br/>
+
+
