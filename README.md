@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Installation Steps
+   Clone the repository:<br/>
+   
+  `git clone https://github.com/savyatam/MERNstack.git`<br/>
+  
+   Install all packages:<br/>
+   
+   `npm install`<br/>
+   
+   Change directory to my-app and run available scripts.
+   
+   
+  
+
 ## Available Scripts
 
 In the project directory, you can run:
