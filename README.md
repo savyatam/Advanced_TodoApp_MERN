@@ -12,7 +12,7 @@ This Repository contains both frontend and backend under two different branches(
 ### * User Specific
 ### * Sortby Groups and tags
 ### * Quick Access through Whatsapp(Supports both text and voice message)
-### * ###Voice to text (for input fields)
+### * Voice to text (for input fields)
 
 ## Project Screen Shots 
 
