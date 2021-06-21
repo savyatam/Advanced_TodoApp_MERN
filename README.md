@@ -4,7 +4,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ## Important : 
  
- * This code contains Web Speech API. Please check your browser Compatibility [here](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event#browser_compatibility).Google Chrome is recommended to run this application.
+ * Web Speech API is used in this application. Please check your [browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event#browser_compatibility) before installation. 
  * Refer ServerUpdated branch for backend and ClientUpdated branch for frontend
 
 ## Features
