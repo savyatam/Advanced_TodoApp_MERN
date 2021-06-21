@@ -9,10 +9,10 @@ This Repository contains both frontend and backend under two different branches(
 
 ## Features
 
-### -->User Specific
-### -->Sortby Groups and tags
-### -->Quick Access through Whatsapp(Supports both text and voice message)
-### -->Voice to text (for input fields)
+### * User Specific
+### * Sortby Groups and tags
+### * Quick Access through Whatsapp(Supports both text and voice message)
+### * ###Voice to text (for input fields)
 
 ## Project Screen Shots 
 
@@ -41,7 +41,7 @@ This Repository contains both frontend and backend under two different branches(
 
 ## Installation and Setup Instructions
 
-Refer Server branch for backend and Client branch for frontend
+Refer ServerUpdated branch for backend and ClientUpdated branch for frontend
 
 ## Demo
 
@@ -49,19 +49,19 @@ https://todoapp12345-39304.web.app
 
 ## Note
 
---->Chrome Browser is recommended. (Supports speech Recognition)<br/>
+* Chrome Browser is recommended. (Supports speech Recognition)<br/>
 
---->disable the mic after recording<br/>
+* disable the mic after recording<br/>
 
---->Add country code along with mobile number<br/>
+* Add country code along with mobile number<br/>
 
-## Activate WhatsApp bot
+## Activate WhatsApp bot(Optional)
 
---->Save this number on your phone directory +1 (415) 523-88862. <br/>
+* Save this number on your phone directory +1 (415) 523-88862. <br/>
 
---->Send the given code.<br/>
+* Send the given code.<br/>
       Code: join tip-grade.<br/>
       
---->Start adding task name from your WhatsApp.<br/>
+* Start adding task name from your WhatsApp.<br/>
 
 
