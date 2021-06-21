@@ -7,12 +7,12 @@ This Repository contains both frontend and backend under two different branches(
  * Web Speech API is used in this application. Please check your [browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event#browser_compatibility) before installation. 
  * Refer ServerUpdated branch for backend and ClientUpdated branch for frontend
 
-## Features
+## Features :
 
-### * User Specific
-### * Sortby Groups and tags
-### * Quick Access through Whatsapp(Supports both text and voice message)
-### * Voice to text (for input fields)
+###  User Specific
+###  Sortby Groups and tags
+###  Quick Access through Whatsapp(Supports both text and voice message)
+###  Voice to text (for input fields)
 
 ## Project Screen Shots 
 
