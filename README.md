@@ -2,6 +2,11 @@
 
 This Repository contains both frontend and backend under two different branches(ServerUpdated and ClientUpdated).
 
+## Demo
+
+https://todoapp12345-39304.web.app
+
+
 ## Important : 
  
  * Web Speech API is used in this application. Please check your [browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event#browser_compatibility) before installation. 
@@ -42,10 +47,6 @@ This Repository contains both frontend and backend under two different branches(
 ## Installation and Setup Instructions
 
 Refer ServerUpdated branch for backend and ClientUpdated branch for frontend
-
-## Demo
-
-https://todoapp12345-39304.web.app
 
 ## Note
 
