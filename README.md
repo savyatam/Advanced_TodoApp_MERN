@@ -1,6 +1,11 @@
 # MERNstack
 
-This Repository contains both frontend and backend under two different branches(Server and Client).
+This Repository contains both frontend and backend under two different branches(ServerUpdated and ClientUpdated).
+
+## Important : 
+ 
+ * This code contains Web Speech API. Please check your browser Compatibility [here](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event#browser_compatibility).Google Chrome is recommended to run this application.
+ * Refer ServerUpdated branch for backend and ClientUpdated branch for frontend
 
 ## Features
 
